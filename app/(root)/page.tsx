@@ -32,7 +32,7 @@ function Home() {
       <RightSidebar
         user={loggedIn}
         transactions={[]}
-        banks={[{ currentBalance: 123.5 }, { currentBalance: 500 }]}
+        banks={[{ currentBalance: 64682.5 }, { currentBalance: 158297.3 }]}
       />
     </section>
   );
