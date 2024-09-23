@@ -9,7 +9,7 @@ const DoughnutChart = ({ accounts }: DoughnutChartProps) => {
     datasets: [
       {
         label: 'Banks',
-        data: [1250, 2500, 3750],
+        data: [312456789123.67, 495678345678.22, 61732094569.56],
         backgroundColor: ['#0747b6', '#2265d8', '#2f91fa'],
       },
     ],
@@ -19,7 +19,7 @@ const DoughnutChart = ({ accounts }: DoughnutChartProps) => {
     <Doughnut
       data={data}
       options={{
-        cutout: '65%',
+        cutout: '55%',
         plugins: {
           legend: {
             display: false,
