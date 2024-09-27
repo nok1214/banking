@@ -2,7 +2,7 @@ import React from 'react';
 import AnimatedCounter from './AnimatedCounter';
 import DoughnutChart from './DoughnutChart';
 
-export const TotalBanlanceBox = ({
+export const TotalBalanceBox = ({
   accounts = [],
   totalBanks,
   totalCurrentBalance,
